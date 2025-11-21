@@ -11,7 +11,7 @@ function ProductListing() {
         { name: "Main Gates", image:  "/desiginer-entry-gates1.jpg" },
         { name: "Designer Entry Gates", image: "/flat-entrance.png" },
         { name: "Modern Steel Doors", image: "/modern-steel-doors.png" },
-        { name: "Premium Balcony Railings", image: "/balcony-railings.png" },
+        { name: "Premium Balcony Railings", image: "/Balcony-railings.png" },
         { name: "Security Doors", image: "/boundry-wall-gates.jpg" },
         { name: "Laser Cut Panels", image: "/royal-entry-doors.jpg" },
         { name: "Boundary Wall Designs", image: "/boundry-wall-gates.jpg" }
