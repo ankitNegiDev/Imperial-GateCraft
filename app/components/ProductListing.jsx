@@ -45,6 +45,7 @@ function ProductListing() {
                             height={300}
                             loading="lazy"
                             className="w-full h-full object-cover mix-blend-lighten"
+                            fetchPriority="low"
                         />
                     </div>
 

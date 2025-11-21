@@ -229,7 +229,7 @@ export default function Navbar() {
                             <div>
                                 <h3 className="font-bold mb-3">Entry Doors</h3>
                                 <Image
-                                    src="/balcony-railings.png"
+                                    src="/Balcony-railings.png"
                                     alt="Balcony Railings"
                                     width={120}
                                     height={100}
