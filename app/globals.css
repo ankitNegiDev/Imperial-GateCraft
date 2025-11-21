@@ -1,4 +1,4 @@
-@import "tailwindcss";
+/* @import "tailwindcss";
 
 :root {
   --background: #ffffff;
@@ -23,4 +23,123 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* --------------------------------------------- */
+
+@import "tailwindcss";
+
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --gold: #8f7c45;
+    --gradient-start: #715723;
+    --gradient-end: #8f7c45;
+    --font-ibm: var(--font-ibm);
+    --font-fraunces: var(--font-fraunces);
+}
+
+/* Utility classes */
+.text-gold {
+    color: var(--gold);
+}
+
+.bg-gold {
+    background-color: var(--gold);
+}
+
+.bg-gradient-gold {
+    background: linear-gradient(
+        to right,
+        var(--gradient-start),
+        var(--gradient-end)
+    );
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #0a0a0a;
+        --foreground: #ededed;
+    }
+}
+
+/* Default site font → IBM Plex Sans */
+body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-ibm);
+}
+
+/* Fraunces only where manually applied */
+.font-fraunces {
+    font-family: var(--font-fraunces);
+}
+
+/* Optional helper */
+.font-ibm {
+    font-family: var(--font-ibm);
+}
+
+/* swiper */
+
+/* ---- Force Only Active Slide Visible ---- */
+.swiper-slide {
+    opacity: 0 !important;
+    pointer-events: none;
+    transition: opacity 0.8s ease-in-out !important;
+}
+
+.swiper-slide-active {
+    opacity: 1 !important;
+    pointer-events: auto;
+}
+
+/* ---- Luxury Text Animation ---- */
+.hero-text-animate {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: heroFadeUp 0.8s ease-out forwards;
+}
+
+@keyframes heroFadeUp {
+    0% {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+/* ---- Luxury Image Animation (Slow Zoom) ---- */
+.hero-image-animate {
+    opacity: 0;
+    transform: scale(1.05);
+    animation: heroImageFade 1.2s ease-out forwards;
+}
+
+@keyframes heroImageFade {
+    0% {
+        opacity: 0;
+        transform: scale(1.08);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* floating animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.animate-fadeIn {
+    animation: fadeIn 0.3s ease-out;
 }
