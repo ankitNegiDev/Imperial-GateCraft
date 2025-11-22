@@ -42,6 +42,7 @@ const ibm = IBM_Plex_Sans({
     weight: ["300", "400", "500", "600", "700"],
 });
 
+
 const playfair = Playfair_Display({
     subsets: ["latin"],
     weight: ["400", "500", "600", "700"],
@@ -56,7 +57,7 @@ const fraunces = Fraunces({
 
 const nunito = Nunito({
     subsets: ["latin"],
-    weight: ["400", "600", "700"], // choose weights you need
+    weight: ["400", "600", "700"],
 });
 
 export const metadata = {
