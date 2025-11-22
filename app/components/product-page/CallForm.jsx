@@ -30,20 +30,19 @@ export default function CallForm() {
     return (
         <div
             className="
-                w-[98%] 
+                w-[98%]
                 bg-neutral-900/70 
                 backdrop-blur-xl 
                 rounded-2xl 
                 shadow-[0_20px_70px_rgba(0,0,0,0.7)]
-                p-10
+                p-3
                 mt-14
                 border border-[#8f7c45]/40
                 transition-all duration-300
                 hover:shadow-[0_25px_80px_rgba(0,0,0,0.85)]
-                m-4
+                m-0
             "
         >
-            {/* Title */}
             <h2
                 className="
                     text-center 
@@ -54,31 +53,28 @@ export default function CallForm() {
                     tracking-wider
                 "
             >
-                Schedule a Free{" "}
+                Schedule a{" "}
                 <span className="text-[#8f7c45] drop-shadow-[0_2px_8px_rgba(143,124,69,0.6)]">
-                    Consultation
-                </span>
+                    Free
+                </span>{" "}
+                Consultation
             </h2>
 
             <form
                 onSubmit={handleSubmit}
-                className="grid grid-cols-1 lg:grid-cols-2 gap-8"
+                className="grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-9"
             >
                 {/* Appointment Type */}
                 <div className="lg:col-span-2">
                     <select
                         name="appointmentType"
                         className="
-                            w-full 
-                            bg-neutral-800/80 
-                            text-gray-200 
-                            border border-[#8f7c45]/30 
-                            rounded-xl 
-                            px-4 py-4 
-                            focus:border-[#8f7c45] 
-                            focus:ring-2 focus:ring-[#8f7c45]/40 
-                            transition
-                            placeholder-gray-400
+                            w-full bg-neutral-800/80 text-gray-400
+                            border border-[#8f7c45]/30 rounded-xl
+                            px-4 py-2.5
+                            focus:border-[#8f7c45] focus:ring-2 focus:ring-[#8f7c45]/40
+                            placeholder-gray-400 transition
+                            
                         "
                         onChange={handleChange}
                     >
@@ -95,12 +91,10 @@ export default function CallForm() {
                     placeholder="First Name"
                     className="
                         bg-neutral-800/80 text-gray-200
-                        border border-[#8f7c45]/30 
-                        rounded-xl px-4 py-4 
-                        focus:border-[#8f7c45] 
-                        focus:ring-2 focus:ring-[#8f7c45]/40 
-                        transition
-                        placeholder-gray-400
+                        border border-[#8f7c45]/30 rounded-xl
+                        px-4 py-2
+                        focus:border-[#8f7c45] focus:ring-2 focus:ring-[#8f7c45]/40
+                        placeholder-gray-400 transition
                     "
                     onChange={handleChange}
                 />
@@ -112,12 +106,10 @@ export default function CallForm() {
                     placeholder="Last Name"
                     className="
                         bg-neutral-800/80 text-gray-200
-                        border border-[#8f7c45]/30 
-                        rounded-xl px-4 py-4 
-                        focus:border-[#8f7c45] 
-                        focus:ring-2 focus:ring-[#8f7c45]/40 
-                        transition
-                        placeholder-gray-400
+                        border border-[#8f7c45]/30 rounded-xl
+                        px-4 py-2
+                        focus:border-[#8f7c45] focus:ring-2 focus:ring-[#8f7c45]/40
+                        placeholder-gray-400 transition
                     "
                     onChange={handleChange}
                 />
@@ -129,12 +121,10 @@ export default function CallForm() {
                     placeholder="Mobile Phone"
                     className="
                         bg-neutral-800/80 text-gray-200
-                        border border-[#8f7c45]/30 
-                        rounded-xl px-4 py-4 
-                        focus:border-[#8f7c45] 
-                        focus:ring-2 focus:ring-[#8f7c45]/40 
-                        transition
-                        placeholder-gray-400
+                        border border-[#8f7c45]/30 rounded-xl
+                        px-4 py-2
+                        focus:border-[#8f7c45] focus:ring-2 focus:ring-[#8f7c45]/40
+                        placeholder-gray-400 transition
                     "
                     onChange={handleChange}
                 />
@@ -146,12 +136,10 @@ export default function CallForm() {
                     placeholder="Email"
                     className="
                         bg-neutral-800/80 text-gray-200
-                        border border-[#8f7c45]/30 
-                        rounded-xl px-4 py-4 
-                        focus:border-[#8f7c45] 
-                        focus:ring-2 focus:ring-[#8f7c45]/40 
-                        transition
-                        placeholder-gray-400
+                        border border-[#8f7c45]/30 rounded-xl
+                        px-4 py-2
+                        focus:border-[#8f7c45] focus:ring-2 focus:ring-[#8f7c45]/40
+                        placeholder-gray-400 transition
                     "
                     onChange={handleChange}
                 />
@@ -163,12 +151,10 @@ export default function CallForm() {
                     placeholder="ZIP Code"
                     className="
                         bg-neutral-800/80 text-gray-200
-                        border border-[#8f7c45]/30 
-                        rounded-xl px-4 py-4 
-                        focus:border-[#8f7c45] 
-                        focus:ring-2 focus:ring-[#8f7c45]/40 
-                        transition
-                        placeholder-gray-400
+                        border border-[#8f7c45]/30 rounded-xl
+                        px-4 py-2
+                        focus:border-[#8f7c45] focus:ring-2 focus:ring-[#8f7c45]/40
+                        placeholder-gray-400 transition
                     "
                     onChange={handleChange}
                 />
@@ -180,12 +166,10 @@ export default function CallForm() {
                     placeholder="Address"
                     className="
                         bg-neutral-800/80 text-gray-200
-                        border border-[#8f7c45]/30 
-                        rounded-xl px-4 py-4 
-                        focus:border-[#8f7c45] 
-                        focus:ring-2 focus:ring-[#8f7c45]/40 
-                        transition
-                        placeholder-gray-400
+                        border border-[#8f7c45]/30 rounded-xl
+                        px-4 py-2
+                        focus:border-[#8f7c45] focus:ring-2 focus:ring-[#8f7c45]/40
+                        placeholder-gray-400 transition
                     "
                     onChange={handleChange}
                 />
@@ -195,13 +179,11 @@ export default function CallForm() {
                     type="date"
                     name="date"
                     className="
-                        bg-neutral-800/80 text-gray-200
-                        border border-[#8f7c45]/30 
-                        rounded-xl px-4 py-4 
-                        focus:border-[#8f7c45] 
-                        focus:ring-2 focus:ring-[#8f7c45]/40 
+                        bg-neutral-800/80 text-gray-400
+                        border border-[#8f7c45]/30 rounded-xl
+                        px-4 py-2
+                        focus:border-[#8f7c45] focus:ring-2 focus:ring-[#8f7c45]/40
                         transition
-                        placeholder-gray-400
                     "
                     onChange={handleChange}
                 />
@@ -210,11 +192,10 @@ export default function CallForm() {
                 <select
                     name="time"
                     className="
-                        bg-neutral-800/80 text-gray-200 
-                        border border-[#8f7c45]/30 
-                        rounded-xl px-4 py-4 
-                        focus:border-[#8f7c45] 
-                        focus:ring-2 focus:ring-[#8f7c45]/40 
+                        bg-neutral-800/80 text-gray-400
+                        border border-[#8f7c45]/30 rounded-xl
+                        px-4 py-2
+                        focus:border-[#8f7c45] focus:ring-2 focus:ring-[#8f7c45]/40
                         transition
                     "
                     onChange={handleChange}
@@ -230,18 +211,14 @@ export default function CallForm() {
                     <button
                         type="submit"
                         className="
-                            w-full 
-                            bg-linear-to-r from-[#715723] to-[#8f7c45] 
-                            text-black 
-                            font-extrabold 
-                            py-4 
-                            text-xl 
-                            rounded-xl 
-                            tracking-wide 
+                            w-full bg-linear-to-r from-[#715723] to-[#8f7c45]
+                            text-black font-extrabold text-xl
+                            py-4 rounded-xl tracking-wide
                             shadow-[0_8px_30px_rgba(0,0,0,0.5)]
                             hover:shadow-[0_0_40px_rgba(143,124,69,0.9)]
                             hover:brightness-110
                             transition-all duration-300
+                            hover:cursor-pointer
                         "
                     >
                         Schedule Now →
