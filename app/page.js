@@ -1,11 +1,11 @@
-import BenefitsSection from "./components/BenefitsSection";
-import BlogsSection from "./components/BlogsSection";
-import FloatingButton from "./components/FloatingButtons";
-import Footer from "./components/Footer";
-import HeroSection from "./components/HeroSection";
-import ProductListing from "./components/ProductListing";
-import Testimonials from "./components/Testimonials";
-import VideoSection from "./components/VideoSection";
+import BenefitsSection from "./components/home-page/BenefitsSection";
+import BlogsSection from "./components/home-page/BlogsSection";
+import FloatingButton from "./components/home-page/FloatingButtons";
+import Footer from "./components/home-page/Footer";
+import HeroSection from "./components/home-page/HeroSection";
+import ProductListing from "./components/home-page/ProductListing";
+import Testimonials from "./components/home-page/Testimonials";
+import VideoSection from "./components/home-page/VideoSection";
 // import Navbar from "./components/Navbar";
 
 export default function Home() {
@@ -71,17 +71,16 @@ export default function Home() {
     ];
 
 
-    return(
+    return (
         <>
-            <h1>Task 2</h1>
-            <HeroSection/>
-            <ProductListing/>
-            <BenefitsSection/>
-            <VideoSection/>
-            <FloatingButton/>
-            <Testimonials data={testimonialData}/>
+            {/* <h1>Task 2</h1> */}
+            <HeroSection />
+            <ProductListing />
+            <BenefitsSection />
+            <VideoSection />
+            <FloatingButton />
+            <Testimonials data={testimonialData} />
             <BlogsSection blogs={blogsData} news={newsData} />
-            <Footer/>
         </>
     );
 }
