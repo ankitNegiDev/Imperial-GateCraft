@@ -355,8 +355,10 @@ function Tab() {
             rounded-2xl 
             shadow-[0_15px_60px_rgba(0,0,0,0.7)]
             border border-[#8f7c45]/25
-            mr-4
+            mr-2
             transition-all duration-300
+            w-6xl
+            ml-3
         "
         >
             {/* Tabs */}
