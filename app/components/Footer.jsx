@@ -3,7 +3,7 @@
 import React from "react";
 import Image from "next/image";
 
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
 function Footer() {
     return (
@@ -71,9 +71,15 @@ function Footer() {
                         Contact
                     </h3>
 
-                    <p className="text-gray-400">📞 +91 98765 43210</p>
-                    <p className="text-gray-400 mt-2">📧 info@company.com</p>
-                    <p className="text-gray-400 mt-2">📍 Mumbai, India</p>
+                    <p className="flex items-center gap-2">
+                        <FaPhone /> +91 98765 43210
+                    </p>
+                    <p className="flex items-center gap-2">
+                        <FaEnvelope /> info@company.com
+                    </p>
+                    <p className="flex items-center gap-2">
+                        <FaMapMarkerAlt /> Mumbai, India
+                    </p>
 
                     <div className="flex gap-4 mt-5">
                         <div
