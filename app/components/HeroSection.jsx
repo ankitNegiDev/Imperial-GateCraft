@@ -44,9 +44,19 @@ function HeroSection() {
                                 {item.description}
                             </p>
 
-                            <button className="px-7 py-3 bg-[#8f7c45] text-black font-semibold rounded-md hover:bg-[#715723] transition-all duration-300 hover:cursor-pointer">
+                            {/* <button className="px-7 py-3 bg-[#8f7c45] text-black font-semibold rounded-md hover:bg-[#715723] transition-all duration-300 hover:cursor-pointer">
+                                Explore Collection
+                            </button> */}
+                            <button className="px-7 py-3 text-black font-semibold rounded-md
+                                bg-linear-to-r from-yellow-400 via-amber-500 to-amber-700
+                                hover:from-yellow-300 hover:via-amber-400 hover:to-amber-600
+                                shadow-lg shadow-yellow-300/40
+                                hover:shadow-[0_0_25px_5px_rgba(255,223,0,0.6)]
+                                transition-all duration-300 hover:cursor-pointer">
                                 Explore Collection
                             </button>
+
+
                         </div>
 
                         {/* RIGHT IMAGE */}
