@@ -1,0 +1,252 @@
+"use client";
+
+import { useState } from "react";
+
+export default function CallForm() {
+    const [form, setForm] = useState({
+        appointmentType: "",
+        firstName: "",
+        lastName: "",
+        phone: "",
+        email: "",
+        zip: "",
+        address: "",
+        date: "",
+        time: "",
+    });
+
+    function handleChange(e) {
+        setForm({
+            ...form,
+            [e.target.name]: e.target.value,
+        });
+    }
+
+    function handleSubmit(e) {
+        e.preventDefault();
+        console.log("Form submitted:", form);
+    }
+
+    return (
+        <div
+            className="
+                w-full 
+                bg-neutral-900/70 
+                backdrop-blur-xl 
+                rounded-2xl 
+                shadow-[0_20px_70px_rgba(0,0,0,0.7)]
+                p-10
+                mt-14
+                border border-[#8f7c45]/40
+                transition-all duration-300
+                hover:shadow-[0_25px_80px_rgba(0,0,0,0.85)]
+            "
+        >
+            {/* Title */}
+            <h2
+                className="
+                    text-center 
+                    text-4xl 
+                    font-extrabold 
+                    text-white 
+                    mb-12 
+                    tracking-wider
+                "
+            >
+                Schedule a Free{" "}
+                <span className="text-[#8f7c45] drop-shadow-[0_2px_8px_rgba(143,124,69,0.6)]">
+                    Consultation
+                </span>
+            </h2>
+
+            <form
+                onSubmit={handleSubmit}
+                className="grid grid-cols-1 lg:grid-cols-2 gap-8"
+            >
+                {/* Appointment Type */}
+                <div className="lg:col-span-2">
+                    <select
+                        name="appointmentType"
+                        className="
+                            w-full 
+                            bg-neutral-800/80 
+                            text-gray-200 
+                            border border-[#8f7c45]/30 
+                            rounded-xl 
+                            px-4 py-4 
+                            focus:border-[#8f7c45] 
+                            focus:ring-2 focus:ring-[#8f7c45]/40 
+                            transition
+                            placeholder-gray-400
+                        "
+                        onChange={handleChange}
+                    >
+                        <option value="">Select Consultation Type</option>
+                        <option value="home">Home Consultation</option>
+                        <option value="virtual">Virtual Consultation</option>
+                    </select>
+                </div>
+
+                {/* First Name */}
+                <input
+                    type="text"
+                    name="firstName"
+                    placeholder="First Name"
+                    className="
+                        bg-neutral-800/80 text-gray-200
+                        border border-[#8f7c45]/30 
+                        rounded-xl px-4 py-4 
+                        focus:border-[#8f7c45] 
+                        focus:ring-2 focus:ring-[#8f7c45]/40 
+                        transition
+                        placeholder-gray-400
+                    "
+                    onChange={handleChange}
+                />
+
+                {/* Last Name */}
+                <input
+                    type="text"
+                    name="lastName"
+                    placeholder="Last Name"
+                    className="
+                        bg-neutral-800/80 text-gray-200
+                        border border-[#8f7c45]/30 
+                        rounded-xl px-4 py-4 
+                        focus:border-[#8f7c45] 
+                        focus:ring-2 focus:ring-[#8f7c45]/40 
+                        transition
+                        placeholder-gray-400
+                    "
+                    onChange={handleChange}
+                />
+
+                {/* Phone */}
+                <input
+                    type="text"
+                    name="phone"
+                    placeholder="Mobile Phone"
+                    className="
+                        bg-neutral-800/80 text-gray-200
+                        border border-[#8f7c45]/30 
+                        rounded-xl px-4 py-4 
+                        focus:border-[#8f7c45] 
+                        focus:ring-2 focus:ring-[#8f7c45]/40 
+                        transition
+                        placeholder-gray-400
+                    "
+                    onChange={handleChange}
+                />
+
+                {/* Email */}
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    className="
+                        bg-neutral-800/80 text-gray-200
+                        border border-[#8f7c45]/30 
+                        rounded-xl px-4 py-4 
+                        focus:border-[#8f7c45] 
+                        focus:ring-2 focus:ring-[#8f7c45]/40 
+                        transition
+                        placeholder-gray-400
+                    "
+                    onChange={handleChange}
+                />
+
+                {/* ZIP */}
+                <input
+                    type="text"
+                    name="zip"
+                    placeholder="ZIP Code"
+                    className="
+                        bg-neutral-800/80 text-gray-200
+                        border border-[#8f7c45]/30 
+                        rounded-xl px-4 py-4 
+                        focus:border-[#8f7c45] 
+                        focus:ring-2 focus:ring-[#8f7c45]/40 
+                        transition
+                        placeholder-gray-400
+                    "
+                    onChange={handleChange}
+                />
+
+                {/* Address */}
+                <input
+                    type="text"
+                    name="address"
+                    placeholder="Address"
+                    className="
+                        bg-neutral-800/80 text-gray-200
+                        border border-[#8f7c45]/30 
+                        rounded-xl px-4 py-4 
+                        focus:border-[#8f7c45] 
+                        focus:ring-2 focus:ring-[#8f7c45]/40 
+                        transition
+                        placeholder-gray-400
+                    "
+                    onChange={handleChange}
+                />
+
+                {/* Date */}
+                <input
+                    type="date"
+                    name="date"
+                    className="
+                        bg-neutral-800/80 text-gray-200
+                        border border-[#8f7c45]/30 
+                        rounded-xl px-4 py-4 
+                        focus:border-[#8f7c45] 
+                        focus:ring-2 focus:ring-[#8f7c45]/40 
+                        transition
+                        placeholder-gray-400
+                    "
+                    onChange={handleChange}
+                />
+
+                {/* Time */}
+                <select
+                    name="time"
+                    className="
+                        bg-neutral-800/80 text-gray-200 
+                        border border-[#8f7c45]/30 
+                        rounded-xl px-4 py-4 
+                        focus:border-[#8f7c45] 
+                        focus:ring-2 focus:ring-[#8f7c45]/40 
+                        transition
+                    "
+                    onChange={handleChange}
+                >
+                    <option value="">Preferred Time</option>
+                    <option value="morning">Morning</option>
+                    <option value="afternoon">Afternoon</option>
+                    <option value="evening">Evening</option>
+                </select>
+
+                {/* Submit Button */}
+                <div className="lg:col-span-2">
+                    <button
+                        type="submit"
+                        className="
+                            w-full 
+                            bg-linear-to-r from-[#715723] to-[#8f7c45] 
+                            text-black 
+                            font-extrabold 
+                            py-4 
+                            text-xl 
+                            rounded-xl 
+                            tracking-wide 
+                            shadow-[0_8px_30px_rgba(0,0,0,0.5)]
+                            hover:shadow-[0_0_40px_rgba(143,124,69,0.9)]
+                            hover:brightness-110
+                            transition-all duration-300
+                        "
+                    >
+                        Schedule Now →
+                    </button>
+                </div>
+            </form>
+        </div>
+    );
+}
