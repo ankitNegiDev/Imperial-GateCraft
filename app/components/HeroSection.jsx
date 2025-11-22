@@ -91,7 +91,20 @@ function HeroSection() {
 
     return (
         // <section className="w-full min-h-[90vh] bg-black text-white flex justify-center items-center">
-        <section className="w-full min-h-[90vh] bg-black text-white flex justify-center items-center relative z-0 overflow-visible"> 
+        // <section className="w-full min-h-[90vh] bg-black text-white flex justify-center items-center relative z-0 overflow-visible "> 
+        <section
+            className="w-full min-h-[90vh] flex justify-center items-center relative z-0 overflow-visible bg-cover bg-center"
+            // style={{ backgroundImage: "url('/hero-bg-1.jpg')" }}
+            // style={{ backgroundImage: "url('/hero-2.jpg')" }}
+            // style={{ backgroundImage: "url('/hero-3.jpg')" }}
+            // style={{ backgroundImage: "url('/task-2-bg-1.jpg')" }}
+            // style={{ backgroundImage: "url('/task-2-bg-2.jpg')" }}
+            style={{ backgroundImage: "url('/task-2-bg-3.jpg')" }}
+            // style={{ backgroundImage: "url('/task-2-bg-4.jpg')" }}
+            // style={{ backgroundImage: "url('/task-2-bg-5.jpg')" }}
+            // style={{ backgroundImage: "url('/task-2-bg-6.jpg')" }}
+        >
+
 
 
             <Swiper
