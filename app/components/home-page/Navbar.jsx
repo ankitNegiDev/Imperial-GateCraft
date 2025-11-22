@@ -204,7 +204,7 @@ export default function Navbar() {
                                 <ul className="space-y-1 text-base">
 
                                     <li 
-                                        onClick={function callback(){goToCategory('Royal entrance');}}
+                                        onClick={function callback(){goToCategory('Royal Entrance');}}
                                         className="cursor-pointer hover:text-[#8f7c45]">Royal Entrance
                                     </li>
                                     <li 
