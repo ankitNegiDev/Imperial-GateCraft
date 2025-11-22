@@ -205,19 +205,19 @@ export default function Navbar() {
 
                                     <li 
                                         onClick={function callback(){goToCategory('Royal entrance');}}
-                                        className="cursor-pointer hover:text-[#8f7c45]">Royal entrance
+                                        className="cursor-pointer hover:text-[#8f7c45]">Royal Entrance
                                     </li>
                                     <li 
                                         onClick={function callback(){goToCategory('Modern doors');}}
-                                        className="cursor-pointer hover:text-[#8f7c45]">Modern doors
+                                        className="cursor-pointer hover:text-[#8f7c45]">Modern Doors
                                     </li>
                                     <li
                                         onClick={function callback() { goToCategory('Modern doors'); }}
-                                        className="cursor-pointer hover:text-[#8f7c45]">Ornamental iron
+                                        className="cursor-pointer hover:text-[#8f7c45]">Ornamental Iron
                                     </li>
                                     <li 
                                         onClick={function callback() { goToCategory('Modern doors'); }}
-                                        className="cursor-pointer hover:text-[#8f7c45]">Laser cut</li>
+                                        className="cursor-pointer hover:text-[#8f7c45]">Laser Cut</li>
                                 </ul>
                             </div>
 
@@ -289,7 +289,7 @@ export default function Navbar() {
                                         className="cursor-pointer hover:text-[#8f7c45]">Modern</li>
                                     <li 
                                         onClick={function callback() { goToCategory('Wrough iron') }}
-                                        className="cursor-pointer hover:text-[#8f7c45]">Wrought iron</li>
+                                        className="cursor-pointer hover:text-[#8f7c45]">Wrought Iron</li>
                                     <li 
                                         onClick={function callback() { goToCategory('Ornamental') }}
                                         className="cursor-pointer hover:text-[#8f7c45]">Ornamental</li>
@@ -317,7 +317,7 @@ export default function Navbar() {
                                         className="cursor-pointer hover:text-[#8f7c45]">Modern</li>
                                     <li 
                                         onClick={function callback() { goToCategory('Wrought iron') }}
-                                        className="cursor-pointer hover:text-[#8f7c45]">Wrought iron</li>
+                                        className="cursor-pointer hover:text-[#8f7c45]">Wrought Iron</li>
                                     <li 
                                         onClick={function callback() { goToCategory('Ornamental') }}
                                         className="cursor-pointer hover:text-[#8f7c45]">Ornamental</li>
@@ -342,10 +342,10 @@ export default function Navbar() {
                                 <ul className="space-y-1 text-base">
                                     <li 
                                         onClick={function callback() { goToCategory('Flat design') }}
-                                        className="cursor-pointer hover:text-[#8f7c45]">Flat design</li>
+                                        className="cursor-pointer hover:text-[#8f7c45]">Flat Design</li>
                                     <li 
                                         onClick={function callback() { goToCategory('Textured design') }}
-                                        className="cursor-pointer hover:text-[#8f7c45]">Textured design</li>
+                                        className="cursor-pointer hover:text-[#8f7c45]">Textured Design</li>
                                 </ul>
                             </div>
 
@@ -367,10 +367,10 @@ export default function Navbar() {
                                 <ul className="space-y-1 text-base">
                                     <li 
                                         onClick={function callback() { goToCategory('Gold coated') }}
-                                        className="cursor-pointer hover:text-[#8f7c45]">Gold coated</li>
+                                        className="cursor-pointer hover:text-[#8f7c45]">Gold Coated</li>
                                     <li 
                                         onClick={function callback() { goToCategory('Laser designed') }}
-                                        className="cursor-pointer hover:text-[#8f7c45]">Laser designed</li>
+                                        className="cursor-pointer hover:text-[#8f7c45]">Laser Designed</li>
                                 </ul>
                             </div>
 
