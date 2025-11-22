@@ -39,9 +39,9 @@ function ProductsPageClient() {
     ];
     return (
         <>
-            <div className="flex py-34 w-8xl">
+            <div className="flex pt-34 pb-15 w-8xl">
                 {/* left */}
-                <div className="w-[45%] flex flex-col gap-10 mr-4 ml-3 mt-5">
+                <div className="w-[43%] flex flex-col gap-0 mr-0 ml-3 mt-5">
                     <Sidebar />
                     <OtherProduct
                         image={"/product-page/Bamboo.jpg"}
@@ -61,9 +61,9 @@ function ProductsPageClient() {
                     />
                 </div>
 
-                <div className="w-full flex flex-col">
+                <div className="w-full flex flex-col m-0">
                     {/* Horizontal row: Swiper + More Ideas */}
-                    <div className="flex w-full gap-5 mb-6">
+                    <div className="flex w-full gap-0 mb-6">
                         {/* LEFT: Image Swiper */}
                         <div className="w-3/4">
                             <h1 className="ml-4 text-4xl font-bold text-[#8f7c45] mb-4 tracking-wide drop-shadow-[0_0_6px_rgba(143,124,69,0.5)]">
@@ -77,6 +77,10 @@ function ProductsPageClient() {
                         {/* RIGHT: More Door Ideas */}
                         <div className="w-1/4">
                             <MoreDoorIdeas doorImages={doorImages} />
+                        </div>
+                        {/* right  */}
+                        <div>
+                            <CallForm />
                         </div>
                     </div>
 
@@ -92,10 +96,6 @@ function ProductsPageClient() {
                 </div>
             </div>
             <div>
-                {/* right  */}
-                <div>
-                    <CallForm />
-                </div>
                 {/* <Footer /> */}
                 
                 <Footer/>

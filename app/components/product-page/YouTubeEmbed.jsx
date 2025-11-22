@@ -1,6 +1,6 @@
 function YouTubeEmbed() {
     return (
-        <div className="w-full aspect-video rounded-lg overflow-hidden shadow mt-15">
+        <div className="w-[97.7%] aspect-video rounded-lg overflow-hidden shadow mt-15 ml-4">
             <iframe
                 width="100%"
                 height="100%"
