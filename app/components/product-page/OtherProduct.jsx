@@ -18,7 +18,8 @@ function OtherProduct({ image, text }) {
     return (
         <div
             className="
-                flex items-center gap-4 p-4 
+                w-full
+                flex items-center gap-4 p-4
                 bg-[#0d0d0d] 
                 rounded-2xl 
                 border border-[#8f7c45]/30
@@ -27,6 +28,7 @@ function OtherProduct({ image, text }) {
                 hover:-translate-y-1 
                 transition-all duration-300 
                 cursor-pointer
+                mt-5
             "
         >
             {/* IMAGE */}
