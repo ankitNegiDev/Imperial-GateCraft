@@ -1,12 +1,12 @@
 "use client";
 
 import React from "react";
-import { Nunito } from "next/font/google";
+// import { Nunito } from "next/font/google";
 
-const nunito = Nunito({
-    subsets: ["latin"],
-    weight: ["400", "600", "700"],
-});
+// const nunito = Nunito({
+//     subsets: ["latin"],
+//     weight: ["400", "600", "700"],
+// });
 
 function BenefitsSection() {
     return (
@@ -27,11 +27,11 @@ function BenefitsSection() {
                             <DesignIcon />
                         </div>
 
-                        <h3 className={`${nunito.className} text-2xl font-semibold tracking-wide text-black`}>
+                        <h3 className="text-2xl font-semibold tracking-wide text-black">
                             FREE <span className="text-[#8f7c45]">DESIGN</span>
                         </h3>
 
-                        <p className={`${nunito.className} mt-3 text-black/70 text-base max-w-lg`}>
+                        <p className="mt-3 text-black/70 text-base max-w-lg">
                             We’ll measure to your home’s exact specs and help you
                             choose a design to fit your style & budget.
                         </p>
@@ -43,11 +43,11 @@ function BenefitsSection() {
                             <DeliveryIcon />
                         </div>
 
-                        <h3 className={`${nunito.className} text-2xl font-semibold tracking-wide text-black`}>
+                        <h3 className="text-2xl font-semibold tracking-wide text-black">
                             FREE <span className="text-[#8f7c45]">DELIVERY</span>
                         </h3>
 
-                        <p className={`${nunito.className} mt-3 text-black/70 text-base max-w-lg`}>
+                        <p className="mt-3 text-black/70 text-base max-w-lg">
                             No hidden fees. No surprises. We build and deliver
                             your custom Iron Door with no extra cost.
                         </p>
@@ -59,12 +59,12 @@ function BenefitsSection() {
                             <InstallIcon />
                         </div>
 
-                        <h3 className={`${nunito.className} text-2xl font-semibold tracking-wide text-black`}>
+                        <h3 className="text-2xl font-semibold tracking-wide text-black">
                             FREE <span className="text-[#8f7c45]">INSTALLATION</span>
                         </h3>
 
 
-                        <p className={`${nunito.className} mt-3 text-black/70 text-base max-w-lg`}>
+                        <p className="mt-3 text-black/70 text-base max-w-lg">
                             Our factory-trained installation crew will ensure
                             everything goes smoothly at your home.
                         </p>
@@ -75,7 +75,7 @@ function BenefitsSection() {
                 <div className="w-full border-b border-black/40 my-5"></div>
 
                 {/* WARRANTY SECTION */}
-                <h2 className={`${nunito.className} text-center md:text-3xl font-semibold tracking-wide text-black`}>
+                <h2 className="text-center md:text-3xl font-semibold tracking-wide text-black">
                     <span className="text-xl md:text-xl uppercase">ASK ABOUT OUR</span>{" "}
                     <span className="text-2xl md:text-3xl text-[#8f7c45]">LIMITED LIFETIME WARRANTY</span>
                 </h2>
