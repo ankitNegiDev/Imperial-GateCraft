@@ -69,7 +69,7 @@ function FloatingButtons() {
 
             {/* Enquiry Form Modal */}
             {open && (
-                <div className="fixed inset-0 bg-black/60 backdrop-blur-md flex items-center justify-center z[9999] animate-fadeIn">
+                <div className="fixed inset-0 bg-black/60 backdrop-blur-md flex items-center justify-center animate-fadeIn z-9999">
                     <div className="bg-white w-[90%] max-w-lg p-8 rounded-2xl shadow-2xl relative border border-gray-300">
 
                         {/* Close Button */}
