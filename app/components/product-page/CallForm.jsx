@@ -30,7 +30,7 @@ export default function CallForm() {
     return (
         <div
             className="
-                w-full 
+                w-[98%] 
                 bg-neutral-900/70 
                 backdrop-blur-xl 
                 rounded-2xl 
@@ -40,6 +40,7 @@ export default function CallForm() {
                 border border-[#8f7c45]/40
                 transition-all duration-300
                 hover:shadow-[0_25px_80px_rgba(0,0,0,0.85)]
+                m-4
             "
         >
             {/* Title */}
