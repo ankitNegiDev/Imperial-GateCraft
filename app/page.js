@@ -81,7 +81,7 @@ export default function Home() {
             <FloatingButton />
             <Testimonials data={testimonialData} />
             <BlogsSection blogs={blogsData} news={newsData} />
-            <Footer/>
+            {/* <Footer/> */}
         </>
     );
 }

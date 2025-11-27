@@ -36,6 +36,7 @@ import { Playfair_Display, Fraunces, IBM_Plex_Sans, Nunito } from "next/font/goo
 
 import "./globals.css";
 import Navbar from "./components/home-page/Navbar";
+import Footer from "./components/home-page/Footer";
 // import Footer from "./components/home-page/Footer";
 
 const ibm = IBM_Plex_Sans({
@@ -75,7 +76,7 @@ export default function RootLayout({ children }) {
                 {/* <Test/> */}
                 {children}
 
-                {/* <Footer /> */}
+                <Footer />
 
             </body>
         </html>
