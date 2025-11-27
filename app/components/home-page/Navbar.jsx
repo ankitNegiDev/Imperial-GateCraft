@@ -73,6 +73,7 @@ export default function Navbar() {
 
                     {/* LOGO */}
                     <div className="text-xl font-bold cursor-pointer">
+                        {/* added dwars logo */}
                         <Image
                             src="/Dwars-logo.png"
                             alt="Website Logo"
