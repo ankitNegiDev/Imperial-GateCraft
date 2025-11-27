@@ -33,13 +33,13 @@ function BlogsSection(props) {
                             fill
                             className="object-cover rounded-t-3xl"
                         />
-                        <div className="absolute top-2 left-2 px-3 py-1 bg-linear-to-r from-[#715723] to-[#8f7c45] text-white font-semibold rounded-full text-sm shadow-lg">
+                        <div className="absolute top-2 left-2 px-3 py-1 bg-[#fac21e] text-white font-semibold rounded-full text-sm shadow-lg">
                             {item.category}
                         </div>
                     </div>
 
                     <div className="p-6">
-                        <h3 className="text-2xl font-bold mt-2 text-white bg-clip-text bg-linear-to-r from-[#715723] to-[#8f7c45]">
+                        <h3 className="text-2xl font-bold mt-2 text-white bg-clip-text bg-[#fac21e]">
                             {item.title}
                         </h3>
 
@@ -47,7 +47,7 @@ function BlogsSection(props) {
                             {item.description}
                         </p>
 
-                        <button className="mt-5 font-semibold text-[#8f7c45] hover:underline hover:cursor-pointer">
+                        <button className="mt-5 font-semibold text-[#fac21e] hover:underline hover:cursor-pointer">
                             Read More →
                         </button>
                     </div>
@@ -62,7 +62,7 @@ function BlogsSection(props) {
 
                 {/* Heading */}
                 <h2 className="text-3xl md:text-4xl font-bold text-center text-transparent bg-clip-text 
-                    bg-linear-to-r from-[#715723] to-[#8f7c45]"
+                    bg-[#fac21e]"
                 >
                     Blogs & News
                 </h2>
@@ -79,7 +79,7 @@ function BlogsSection(props) {
                             "px-6 py-2 rounded-full font-semibold border transition-all duration-300 hover:cursor-pointer " +
                             (activeTab === "blogs"
                                 ? "bg-linear-to-r from-[#715723] to-[#8f7c45] text-white border-transparent"
-                                : "bg-black text-[#8f7c45] border-[#8f7c45]"
+                                : "bg-black text-[#fac21e] border-[#8f7c45]"
                             )
                         }
                     >
@@ -92,7 +92,7 @@ function BlogsSection(props) {
                             "px-6 py-2 rounded-full font-semibold border transition-all duration-300 hover:cursor-pointer " +
                             (activeTab === "news"
                                 ? "bg-linear-to-r from-[#715723] to-[#8f7c45] text-white border-transparent"
-                                : "bg-black text-[#8f7c45] border-[#8f7c45]"
+                                : "bg-black text-[#fac21e] border-[#8f7c45]"
                             )
                         }
                     >
