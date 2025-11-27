@@ -75,7 +75,7 @@ export default function Navbar() {
                     <div className="text-xl font-bold cursor-pointer">
                         {/* added dwars logo */}
                         <Image
-                            src="/Dwars-logo.png"
+                            src="/Dwars-logo-new.png"
                             alt="Website Logo"
                             width={120}
                             height={50}
