@@ -4,17 +4,17 @@ import React from "react";
 import Image from "next/image";
 
 function ProductListing() {
-
+    
 
     // product list array - it contains all the details about product
     let categories = [
-        { name: "Main Gates", image:  "/desiginer-entry-gates1.jpg" },
-        { name: "Designer Entry Gates", image: "/flat-entrance.png" },
-        { name: "Modern Steel Doors", image: "/modern-steel-doors.png" },
-        { name: "Premium Balcony Railings", image: "/Balcony-railings.png" },
-        { name: "Security Doors", image: "/boundry-wall-gates.jpg" },
-        { name: "Laser Cut Panels", image: "/royal-entry-doors.jpg" },
-        { name: "Boundary Wall Designs", image: "/boundry-wall-gates.jpg" }
+        { name: "Main Gates", image: "/product-image.jpg" },
+        { name: "Designer Entry Gates", image: "/product-image.jpg" },
+        { name: "Modern Steel Doors", image: "/product-image.jpg" },
+        { name: "Premium Balcony Railings", image: "/product-image.jpg" },
+        { name: "Security Doors", image: "/product-image.jpg" },
+        { name: "Laser Cut Panels", image: "/product-image.jpg" },
+        { name: "Boundary Wall Designs", image: "/product-image.jpg" }
     ];
 
     // using this component we are rendering each product
