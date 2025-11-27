@@ -33,7 +33,7 @@ function ContactUs() {
                         </span>
                     </h1>
 
-                    <p className="text-gray-300 mt-8 max-w-3xl mx-auto text-lg leading-relaxed">
+                    <p className="text-gray-300 mt-8 max-w-3xl mx-auto text-base leading-relaxed">
                         Since 2017, The Dwars has shaped luxury architectural metal craftsmanship — blending
                         heritage skill with modern engineering to deliver custom-crafted wrought iron doors,
                         railings & artistic metal installations for premium spaces.
@@ -69,7 +69,7 @@ function ContactUs() {
                             artistic architectural reality.
                         </p>
 
-                        <div className="space-y-4 text-sm">
+                        <div className="space-y-4 text-base">
                             <div>
                                 <p className="text-gray-400 uppercase tracking-widest text-xs">Call / WhatsApp</p>
                                 <p className="text-[#fac21e]  text-lg font-medium">+91 98765 43210</p>
@@ -103,7 +103,7 @@ function ContactUs() {
                         transition={{ duration: 0.8, delay: 0.2 }}
                         className="md:col-span-2 bg-[#0c0c0c] border border-[#8f7c45]/30 rounded-3xl p-10 shadow-xl"
                     >
-                        <form className="space-y-6 text-sm">
+                        <form className="space-y-6 text-base">
 
                             <motion.div
                                 initial={{ opacity: 0, y: 40 }}
