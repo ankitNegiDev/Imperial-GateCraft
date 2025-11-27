@@ -36,7 +36,7 @@ function HeroSection() {
 
                         {/* LEFT TEXT */}
                         <div className="w-full md:w-1/2 space-y-6 hero-text-animate">
-                            <h1 className="text-4xl md:text-5xl font-bold text-[#8f7c45] leading-tight">
+                            <h1 className="text-4xl md:text-5xl font-bold text-[#fac21e]  leading-tight">
                                 {item.title}
                             </h1>
 
