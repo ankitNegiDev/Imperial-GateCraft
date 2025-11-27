@@ -98,7 +98,7 @@ function ProductsPageClient() {
             <div>
                 {/* <Footer /> */}
                 
-                <Footer/>
+                {/* <Footer/> */}
             </div>
         </>
     );
