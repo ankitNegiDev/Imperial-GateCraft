@@ -69,7 +69,7 @@ function Testimonials(props) {
 
                     {/* RIGHT TEXT */}
                     <div className="w-full md:w-1/2 space-y-6">
-                        <h3 className="text-3xl md:text-4xl font-bold text-[#8f7c45] font-fraunces">
+                        <h3 className="text-3xl md:text-4xl font-bold text-[#fac21e] font-fraunces">
                             {item.heading}
                         </h3>
 
@@ -97,7 +97,7 @@ function Testimonials(props) {
                 {/* Section Heading */}
                 <h2 className="
                     text-center text-4xl md:text-5xl font-bold mb-16
-                    bg-linear-to-r from-[#715723] to-[#8f7c45]
+                    bg-[#fac21e]
                     bg-clip-text text-transparent
                     font-fraunces tracking-wide
                 ">
