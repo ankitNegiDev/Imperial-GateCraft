@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import React, { useState, useEffect } from "react";
-import { FaArrowRight, FaHome } from "react-icons/fa";
+import { FaArrowRight, FaChevronDown, FaHome } from "react-icons/fa";
 import { FiShoppingCart } from "react-icons/fi";
 
 
@@ -56,6 +56,12 @@ export default function Navbar() {
         setActiveMenu("");
     }
 
+    // redirect user to home page when user click home icon
+    function goToHomePage(){
+        router.push("/");
+        setActiveMenu("");
+    }
+
     return (
 
         // close mega on leaving
@@ -88,8 +94,10 @@ export default function Navbar() {
                     {/* NAV LINKS */}
                     <div className="flex items-center gap-6 text-xl mr-10">
 
-                        <div className="flex items-center gap-1 cursor-pointer hover:text-amber-300">
-                            <FaHome size={26} />
+                        <div 
+                            onClick={function () { goToHomePage() }}
+                            className="flex items-center gap-1 cursor-pointer hover:text-amber-300">
+                            <FaHome size={26}/>
                         </div>
 
                         <div
@@ -103,11 +111,19 @@ export default function Navbar() {
 
                         <div
                             onMouseEnter={function () { setActiveMenu("products"); }}
-                            className="relative group cursor-pointer hover:text-amber-300"
+                            className="relative group cursor-pointer hover:text-amber-300 flex items-center gap-2"
                         >
                             Products
                             <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-linear-to-r from-[#715723] to-[#8f7c45] transition-all duration-300 group-hover:w-full"></span>
 
+                            {/* Dropdown arrow rotates when open */}
+                            <FaChevronDown
+                                className={
+                                    "transition-transform duration-300 " +
+                                    (activeMenu ? "rotate-180" : "rotate-0")
+                                }
+                                size={13}
+                            />
                         </div>
 
                         <div
