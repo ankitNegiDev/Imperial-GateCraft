@@ -50,7 +50,7 @@ function ProductListing() {
                     </div>
 
                     {/* TITLE */}
-                    <p className="text-base md:text-lg font-semibold tracking-wide text-[#8f7c45] uppercase">
+                    <p className="text-base md:text-lg font-semibold tracking-wide text-[#fac21e] uppercase">
                         {item.name}
                     </p>
                 </div>
@@ -66,7 +66,7 @@ function ProductListing() {
         <section className="w-full py-20 px-6 bg-[#0d0d0d] text-white">
             {/* TITLE */}
             <div className="text-center mb-14">
-                <h2 className="text-3xl md:text-4xl font-bold text-[#8f7c45] tracking-wide">
+                <h2 className="text-3xl md:text-4xl font-bold text-[#fac21e] tracking-wide">
                     Our Premium Categories
                 </h2>
                 <p className="text-gray-300 mt-2">
@@ -90,13 +90,13 @@ function ProductListing() {
                     bg-linear-to-br from-black/60 to-black/20
                     backdrop-blur-xl shadow-lg hover:cursor-pointer
                 ">
-                    <p className="text-3xl font-bold text-[#8f7c45]">10+</p>
+                    <p className="text-3xl font-bold text-[#fac21e]">10+</p>
                     <p className="text-gray-300 text-sm">Categories</p>
                     <p className="text-gray-300 text-sm">Available</p>
 
                     <button className="
                         mt-3 px-4 py-1 border border-[#8f7c45] rounded-md 
-                        text-[#8f7c45] text-xs hover:bg-[#8f7c45] hover:text-black
+                        text-[#fac21e] text-xs hover:bg-[#8f7c45] hover:text-black
                         transition-all duration-300 hover:cursor-pointer
                     ">
                         VIEW ALL
