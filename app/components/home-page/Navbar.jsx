@@ -74,9 +74,10 @@ export default function Navbar() {
                     {/* LOGO */}
                     <div className="text-xl font-bold cursor-pointer">
                         {/* added dwars logo */}
-                        
+
+                        {/* error was smallcase l instead of upper case L */}
                         <Image
-                            src="/Dwars-logo-new.png"
+                            src="/Dwars-Logo-new.png"
                             alt="Website Logo"
                             width={120}
                             height={50}
