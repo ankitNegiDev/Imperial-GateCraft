@@ -98,7 +98,7 @@ function AboutUs() {
                                 className="bg-[#0c0c0c] border border-[#8f7c45]/30 p-8 rounded-2xl text-center"
                             >
                                 <h3 className="text-4xl font-bold text-[#fac21e] ">{item.year}</h3>
-                                <p className="mt-3 text-gray-300 text-sm">{item.text}</p>
+                                <p className="mt-3 text-gray-300 text-lg">{item.text}</p>
                             </motion.div>
                         );
                     })}
@@ -126,8 +126,8 @@ function AboutUs() {
                                 viewport={{ once: true }}
                                 className="bg-[#0c0c0c] p-8 border border-[#8f7c45]/30 rounded-2xl"
                             >
-                                <h3 className="text-xl text-[#fac21e]  font-medium">{text}</h3>
-                                <p className="text-gray-300 text-sm mt-3 leading-relaxed">
+                                <h3 className="text-2xl text-[#fac21e]  font-medium">{text}</h3>
+                                <p className="text-gray-300 text-base mt-3 leading-relaxed">
                                     Engineered with precision and handcrafted finishing for long-lasting performance.
                                 </p>
                             </motion.div>
@@ -190,7 +190,7 @@ function AboutUs() {
                                 viewport={{ once: true }}
                                 className="bg-[#111] p-6 rounded-2xl border border-[#8f7c45]/20"
                             >
-                                <p className="text-gray-300 text-sm leading-relaxed">{text}</p>
+                                <p className="text-gray-300 text-base leading-relaxed">{text}</p>
                             </motion.div>
                         );
                     })}
@@ -205,7 +205,7 @@ function AboutUs() {
                 transition={{ duration: 1 }}
                 viewport={{ once: true }}
             >
-                <h2 className="text-3xl md:text-4xl font-semibold mb-10">Our Work & Installations</h2>
+                <h2 className="text-3xl md:text-4xl font-semibold mb-10 text-[#fac21e]">Our Work & Installations</h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {["/wrought-iron-doors.png", "/stair-case-railings.png", "/flat-entrance.png"].map(function (img, index) {
@@ -239,7 +239,7 @@ function AboutUs() {
                 transition={{ duration: 1 }}
                 viewport={{ once: true }}
             >
-                <h2 className="text-3xl md:text-4xl font-semibold mb-12 text-center">What Our Clients Say</h2>
+                <h2 className="text-3xl md:text-4xl font-semibold mb-12 text-center text-[#fac21e]">What Our Clients Say</h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {testimonials.map(function (text, index) {
@@ -253,7 +253,7 @@ function AboutUs() {
                                 className="bg-[#0c0c0c] border border-[#8f7c45]/30 p-8 rounded-2xl"
                             >
                                 <p className="text-gray-300 text-sm leading-relaxed">⭐ ⭐ ⭐ ⭐ ⭐</p>
-                                <p className="mt-3 text-gray-300 text-sm leading-relaxed">{text}</p>
+                                <p className="mt-3 text-gray-300 text-base leading-relaxed">{text}</p>
                             </motion.div>
                         );
                     })}
@@ -269,7 +269,7 @@ function AboutUs() {
                 viewport={{ once: true }}
             >
                 <h2 className="text-4xl font-semibold mb-6">Let’s Build Something Legendary</h2>
-                <p className="text-gray-300 mb-8">
+                <p className="text-gray-300 mb-8 text-base">
                     Ready to begin designing your premium architectural metalwork project?
                 </p>
                 <button className="px-12 py-4 rounded-full bg-linear-to-r from-[#715723] to-[#8f7c45] text-black font-semibold uppercase tracking-wide hover:brightness-110 transition">
