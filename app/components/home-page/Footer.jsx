@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useRef } from "react";
+import Image from "next/image";
+import React, { useRef, useState } from "react";
 // import Image from "next/image";
 
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
@@ -9,9 +10,15 @@ function Footer() {
 
     let videoRef = useRef(null);
 
+    // a state variable that keep tracks when to show image or not ...
+    const [showImage, setShowImage] = useState(false);
+
     // creating a function that will handle 5s delay
     function handleVideoDelay() {
+        setShowImage(true);
+
         setTimeout(function callback() {
+            setShowImage(false);
             if (videoRef.current) {
                 videoRef.current.play();
             }
@@ -31,27 +38,18 @@ function Footer() {
             <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-12 text-white">
                 {/* LOGO + ABOUT */}
                 <div className="flex flex-col items-start w-full">
-                    <div className="w-full md:h-[280px] rounded-xl overflow-hidden">
-                        <video
-                            ref={videoRef}
-                            src="/temp-video.mp4"
-                            autoPlay
-                            muted
-                            playsInline
-                            onEnded={handleVideoDelay}
-                            className="
-                                block
-                                w-full
-                                h-[39.9vh]
-                                object-cover
-                                rounded-xl
-                                overflow-hidden
-                                scale-[1.9]     
-                                origin-center 
-                                transition-all
-                                duration-500
-                            "
-                        />
+                    <div className="w-full md:h-[280px] rounded-xl overflow-hidden relative transition-all duration-1000">
+                        {showImage ? (
+                            <Image
+                                src="/Dwars-Logo-new.png" 
+                                alt="Logo"
+                                fill
+                                className="object-contain bg-black"
+                            />
+                        ) : (
+                            <video ref={videoRef} src="/temp-video.mp4" autoPlay muted playsInline onEnded={handleVideoDelay} className=" block w-full h-[39.9vh] object-cover rounded-xl overflow-hidden scale-[1.9] origin-center transition-all duration-500 " />
+                            
+                        )}
                     </div>
 
                     <p className="text-gray-400 leading-relaxed mt-4 text-base">
