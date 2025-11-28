@@ -144,14 +144,38 @@ body {
     animation: fadeIn 0.3s ease-out;
 }
 
-
-
-.swiper, 
-.swiper-wrapper, 
+.swiper,
+.swiper-wrapper,
 .swiper-slide {
-  z-index: 0 !important;
+    z-index: 0 !important;
 }
 
 .swiper-slide {
-  position: relative !important;
+    position: relative !important;
+}
+
+/* blog slider */
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #fac21e !important; /* Gold arrow color */
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    color: white !important; /* Hover white */
+    text-shadow: 0 0 12px #fac21e;
+}
+
+/* Pagination Dots */
+.swiper-pagination-bullet {
+    background: #ffffff !important;
+    opacity: 0.5;
+}
+.swiper-pagination-bullet-active {
+    background: #fac21e !important;
+    opacity: 1;
+    transform: scale(1.3);
 }
