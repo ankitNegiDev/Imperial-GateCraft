@@ -66,7 +66,7 @@ function ProductsPageClient() {
                     <div className="flex w-full gap-0 mb-6">
                         {/* LEFT: Image Swiper */}
                         <div className="w-3/4">
-                            <h1 className="ml-4 text-4xl font-bold text-[#8f7c45] mb-4 tracking-wide drop-shadow-[0_0_6px_rgba(143,124,69,0.5)]">
+                            <h1 className="ml-4 text-4xl font-bold text-[#fac21e]  mb-0 mt-1 tracking-wide drop-shadow-[0_0_6px_rgba(143,124,69,0.5)] text-center">
                                 {category}
                             </h1>
 
