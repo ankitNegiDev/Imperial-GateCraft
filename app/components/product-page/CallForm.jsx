@@ -54,7 +54,7 @@ export default function CallForm() {
                 "
             >
                 Schedule a{" "}
-                <span className="text-[#8f7c45] drop-shadow-[0_2px_8px_rgba(143,124,69,0.6)]">
+                <span className="text-[#fac21e]  drop-shadow-[0_2px_8px_rgba(143,124,69,0.6)]">
                     Free
                 </span>{" "}
                 Consultation
