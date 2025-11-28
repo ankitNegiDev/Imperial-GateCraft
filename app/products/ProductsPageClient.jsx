@@ -39,7 +39,7 @@ function ProductsPageClient() {
     ];
     return (
         <>
-            <div className="flex pt-34 pb-15 w-8xl">
+            <div className="flex pt-34 pb-15 w-8xl bg-black">
                 {/* left */}
                 <div className="w-[43%] flex flex-col gap-0 mr-0 ml-3 mt-5">
                     <Sidebar />
