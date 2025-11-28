@@ -190,10 +190,10 @@ export default function Navbar() {
                         {/* ABOUT US SECTION */}
                         {activeMenu === "about" && (
                             <div className="text-center max-w-6xl mx-auto py-12 h-[85vh]">
-                                <h2 className="text-3xl text-[#8f7c45] font-semibold">
+                                <h2 className="text-3xl text-[#fac21e]  font-semibold">
                                     About The Dwars
                                 </h2>
-                                <p className="text-gray-300 mt-4 text-sm leading-relaxed">
+                                <p className="text-gray-300 mt-4 text-base leading-relaxed">
                                     Since 2017, crafting luxury designer metal architecture — wrought iron doors,
                                     artistic railings & precision structural elements for premium spaces.
                                 </p>
@@ -220,7 +220,7 @@ export default function Navbar() {
 
                                     {/* 1. Boundary Wall Doors */}
                                     <div>
-                                        <h3 className="font-bold mb-3 text-[#8f7c45] uppercase tracking-wide">
+                                        <h3 className="font-bold mb-3 text-[#fac21e]  uppercase tracking-wide">
                                             Boundary Wall Doors
                                         </h3>
                                         <div className="w-[140px] h-[140px] overflow-hidden rounded-lg mb-3 shadow-lg">
@@ -262,7 +262,7 @@ export default function Navbar() {
 
                                     {/* 2. Brass Railings */}
                                     <div>
-                                        <h3 className="font-bold mb-3 text-[#8f7c45] uppercase tracking-wide">
+                                        <h3 className="font-bold mb-3 text-[#fac21e]  uppercase tracking-wide">
                                             Brass Railings
                                         </h3>
                                         <div className="w-[140px] h-[140px] overflow-hidden rounded-lg mb-3 shadow-lg">
@@ -293,7 +293,7 @@ export default function Navbar() {
 
                                     {/* 3. Staircase Railings */}
                                     <div>
-                                        <h3 className="font-bold mb-3 text-[#8f7c45] uppercase tracking-wide">
+                                        <h3 className="font-bold mb-3 text-[#fac21e]  uppercase tracking-wide">
                                             Staircase Railings
                                         </h3>
                                         <div className="w-[140px] h-[140px] overflow-hidden rounded-lg mb-3 shadow-lg">
@@ -324,7 +324,7 @@ export default function Navbar() {
 
                                     {/* 4. Flat Entrance Doors */}
                                     <div>
-                                        <h3 className="font-bold mb-3 text-[#8f7c45] uppercase tracking-wide">
+                                        <h3 className="font-bold mb-3 text-[#fac21e]  uppercase tracking-wide">
                                             Flat Entrance Doors
                                         </h3>
                                         <div className="w-[140px] h-[140px] overflow-hidden rounded-lg mb-3 shadow-lg">
@@ -361,7 +361,7 @@ export default function Navbar() {
 
                                     {/* 5. Entry Doors */}
                                     <div>
-                                        <h3 className="font-bold mb-3 text-[#8f7c45] uppercase tracking-wide">
+                                        <h3 className="font-bold mb-3 text-[#fac21e]  uppercase tracking-wide">
                                             Entry Doors
                                         </h3>
                                         <div className="w-[140px] h-[140px] overflow-hidden rounded-lg mb-3 shadow-lg">
@@ -398,7 +398,7 @@ export default function Navbar() {
 
                                     {/* 6. Balcony Railings */}
                                     <div>
-                                        <h3 className="font-bold mb-3 text-[#8f7c45] uppercase tracking-wide">
+                                        <h3 className="font-bold mb-3 text-[#fac21e]  uppercase tracking-wide">
                                             Balcony Railings
                                         </h3>
                                         <div className="w-[140px] h-[140px] overflow-hidden rounded-lg mb-3 shadow-lg">
@@ -429,7 +429,7 @@ export default function Navbar() {
 
                                     {/* 7. Planters */}
                                     <div>
-                                        <h3 className="font-bold mb-3 text-[#8f7c45] uppercase tracking-wide">
+                                        <h3 className="font-bold mb-3 text-[#fac21e]  uppercase tracking-wide">
                                             Planters
                                         </h3>
                                         <div className="w-[140px] h-[140px] overflow-hidden rounded-lg mb-3 shadow-lg">
@@ -460,7 +460,7 @@ export default function Navbar() {
 
                                     {/* 8. Others */}
                                     <div className="flex items-center justify-start mt-10">
-                                        <h3 className="text-lg md:text-xl font-bold uppercase text-[#8f7c45] tracking-wider flex items-center gap-2 cursor-pointer hover:text-white transition">
+                                        <h3 className="text-lg md:text-xl font-bold uppercase text-[#fac21e]  tracking-wider flex items-center gap-2 cursor-pointer hover:text-white transition">
                                             Others <FaArrowRight size={18} />
                                         </h3>
                                     </div>
@@ -473,24 +473,24 @@ export default function Navbar() {
                         {/* SIGNATURE SECTION */}
                         {activeMenu === "signature" && (
                             <div className="text-center max-w-3xl mx-auto py-12">
-                                <h2 className="text-3xl text-[#8f7c45] font-semibold">Signature Collection</h2>
-                                <p className="text-gray-300 mt-4 text-sm">Exclusive handcrafted masterpieces for elite luxury projects.</p>
+                                <h2 className="text-3xl text-[#fac21e]  font-semibold">Signature Collection</h2>
+                                <p className="text-gray-300 mt-4 text-base">Exclusive handcrafted masterpieces for elite luxury projects.</p>
                             </div>
                         )}
 
                         {/* BLOG SECTION */}
                         {activeMenu === "blogs" && (
                             <div className="text-center max-w-3xl mx-auto py-12">
-                                <h2 className="text-3xl text-[#8f7c45] font-semibold">Insights & Inspiration</h2>
-                                <p className="text-gray-300 mt-4 text-sm">Design trends, fabrication science & architectural innovation.</p>
+                                <h2 className="text-3xl text-[#fac21e]  font-semibold">Insights & Inspiration</h2>
+                                <p className="text-gray-300 mt-4 text-base">Design trends, fabrication science & architectural innovation.</p>
                             </div>
                         )}
 
                         {/* CONTACT SECTION */}
                         {activeMenu === "contact" && (
                             <div className="text-center max-w-3xl mx-auto py-12">
-                                <h2 className="text-3xl text-[#8f7c45] font-semibold">Let’s Build Together</h2>
-                                <p className="text-gray-300 mt-4 text-sm">Call / WhatsApp: +91 98765 43210 | support@thedwars.com</p>
+                                <h2 className="text-3xl text-[#fac21e]  font-semibold">Let’s Build Together</h2>
+                                <p className="text-gray-300 mt-4 text-base">Call / WhatsApp: +91 98765 43210 | support@thedwars.com</p>
                             </div>
                         )}
 
