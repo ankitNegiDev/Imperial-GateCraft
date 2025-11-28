@@ -15,17 +15,17 @@ function Tab() {
 
                         {/* Hero Section */}
                         <div className="bg-neutral-800 p-8 rounded-3xl shadow-xl border border-[#8f7c45]/30">
-                            <h1 className="text-3xl md:text-4xl font-bold text-[#8f7c45] mb-4">
+                            <h1 className="text-3xl md:text-4xl font-bold text-[#fac21e]  mb-4">
                                 Elevate Your Home’s Entrance
                             </h1>
 
                             <p className="text-gray-300 text-lg md:text-xl leading-relaxed">
                                 Discover our custom
-                                <span className="font-semibold text-[#8f7c45]"> Iron Security Screen Doors </span>
+                                <span className="font-semibold tetext-[#fac21e]"> Iron Security Screen Doors </span>
                                 that perfectly combine
-                                <span className="text-[#8f7c45] font-semibold"> style</span>,
-                                <span className="text-[#8f7c45] font-semibold"> strength</span>, and
-                                <span className="text-[#8f7c45] font-semibold"> security</span>.
+                                <span className="text-[#fac21e] font-semibold"> style</span>,
+                                <span className="text-[#fac21e] font-semibold"> strength</span>, and
+                                <span className="text-[#fac21e] font-semibold"> security</span>.
                             </p>
                         </div>
 
@@ -33,7 +33,7 @@ function Tab() {
                         <div className="grid md:grid-cols-2 gap-6">
 
                             <div className="p-6 rounded-2xl shadow-md bg-neutral-800 border border-[#8f7c45]/40 transition-shadow hover:shadow-gold">
-                                <h2 className="text-xl md:text-2xl font-semibold text-[#8f7c45] mb-4">
+                                <h2 className="text-xl md:text-2xl font-semibold text-[#fac21e]   mb-4">
                                     Expert Craftsmanship
                                 </h2>
                                 <ul className="list-disc list-inside ml-4 space-y-2 text-gray-300">
@@ -44,7 +44,7 @@ function Tab() {
                             </div>
 
                             <div className="p-6 rounded-2xl shadow-md bg-neutral-800 border border-[#8f7c45]/40 transition-shadow">
-                                <h2 className="text-xl md:text-2xl font-semibold text-[#8f7c45] mb-4">
+                                <h2 className="text-xl md:text-2xl font-semibold text-[#fac21e]   mb-4">
                                     Available Designs
                                 </h2>
 
@@ -62,7 +62,7 @@ function Tab() {
 
                         {/* Enhancements */}
                         <div className="p-6 rounded-2xl shadow-md bg-neutral-800 border border-[#8f7c45]/40">
-                            <h2 className="text-xl md:text-2xl font-semibold text-[#8f7c45] mb-4">
+                            <h2 className="text-xl md:text-2xl font-semibold text-[#fac21e]   mb-4">
                                 Enhancements & Upgrades
                             </h2>
                             <ul className="list-disc list-inside ml-4 space-y-2 text-gray-300">
@@ -75,7 +75,7 @@ function Tab() {
 
                         {/* Closing Statement */}
                         <div className="bg-neutral-800 p-8 rounded-3xl shadow-xl text-center border border-[#8f7c45]/40">
-                            <p className="text-lg md:text-xl font-bold text-[#8f7c45]">
+                            <p className="text-lg md:text-xl font-bold text-[#fac21e]  ">
                                 With expert craftsmanship and personalized designs, we’ll help you create the
                                 <span className="underline decoration-[#8f7c45]"> first impression you’ve always dreamed of</span>.
                             </p>
@@ -92,8 +92,8 @@ function Tab() {
                         <div className="relative text-center max-w-4xl mx-auto px-4 py-0 overflow-hidden">
 
                             {/* Gradient Heading */}
-                            <h2 className="text-5xl md:text-6xl font-extrabold text-[#8f7c45] relative inline-block">
-                                <span className="bg-linear-to-r from-[#715723] to-[#8f7c45] bg-clip-text text-transparent drop-shadow-lg">
+                            <h2 className="text-5xl md:text-6xl font-extrabold text-[#fac21e] relative inline-block">
+                                <span className="bg-[#fac21e]   bg-clip-text text-transparent drop-shadow-lg">
                                     Key Features
                                 </span>
                             </h2>
@@ -101,10 +101,10 @@ function Tab() {
                             {/* Subheading */}
                             <p className="mt-6 text-gray-300 text-lg md:text-xl leading-relaxed max-w-3xl mx-auto relative z-10">
                                 Each Iron Security Door is crafted with
-                                <span className="font-semibold text-[#8f7c45]"> precision</span>, offering
-                                <span className="font-semibold text-[#8f7c45]"> security</span>,
-                                <span className="font-semibold text-[#8f7c45]"> durability</span>, and
-                                <span className="font-semibold text-[#8f7c45]"> elegance</span>.
+                                <span className="font-semibold text-[#fac21e]" > precision</span>, offering
+                                <span className="font-semibold text-[#fac21e]" > security</span>,
+                                <span className="font-semibold text-[#fac21e]" > durability</span>, and
+                                <span className="font-semibold text-[#fac21e]" > elegance</span>.
                             </p>
 
                             <div className="mt-8 w-32 h-1 mx-auto rounded-full bg-linear-to-r from-[#715723] to-[#8f7c45] shadow-lg"></div>
@@ -149,7 +149,7 @@ function Tab() {
                                             className="
                                             absolute -top-5 -left-5 p-4 rounded-full
                                             bg-neutral-900 border border-[#8f7c45]/40
-                                            shadow-xl text-[#8f7c45] text-2xl flex items-center justify-center
+                                            shadow-xl text-[#fac21e]   text-2xl flex items-center justify-center
                                             transition-transform duration-500 group-hover:scale-110 group-hover:rotate-12
                                         "
                                         >
@@ -157,7 +157,7 @@ function Tab() {
                                         </div>
 
                                         {/* Text */}
-                                        <h3 className="text-lg font-semibold text-[#8f7c45] mt-8 mb-2">
+                                        <h3 className="text-lg font-semibold text-[#fac21e] mt-8 mb-2">
                                             {feature.title}
                                         </h3>
                                         <p className="text-gray-300 text-base leading-relaxed grow overflow-hidden">
@@ -170,7 +170,7 @@ function Tab() {
 
                         {/* Closing */}
                         <div className="relative max-w-3xl mx-auto p-10 rounded-3xl bg-neutral-800 shadow-2xl border border-[#8f7c45]/40">
-                            <p className="text-xl md:text-2xl font-extrabold text-center text-[#8f7c45]">
+                            <p className="text-xl md:text-2xl font-extrabold text-center text-[#fac21e]">
                                 Every feature is designed for
                                 <span className="underline decoration-[#8f7c45]"> security, elegance & lasting value</span>.
                             </p>
@@ -210,13 +210,13 @@ function Tab() {
 
                         {/* Header */}
                         <div className="relative text-center max-w-4xl mx-auto px-4 py-0 overflow-hidden">
-                            <h2 className="text-5xl md:text-6xl font-extrabold text-[#8f7c45]">
+                            <h2 className="text-5xl md:text-6xl font-extrabold text-[#fac21e]">
                                 Options & Customizations
                             </h2>
 
                             <p className="mt-6 text-gray-300 text-lg md:text-xl leading-relaxed">
                                 Tailor your door with premium
-                                <span className="text-[#8f7c45] font-semibold"> customization</span>
+                                <span className="text-[#fac21e] font-semibold"> customization</span>
                                 options for function and elegance.
                             </p>
 
@@ -265,9 +265,9 @@ function Tab() {
 
                         {/* Closing */}
                         <div className="relative max-w-3xl mx-auto p-10 rounded-3xl bg-neutral-800 shadow-2xl border border-[#8f7c45]/40">
-                            <p className="text-xl md:text-2xl font-extrabold text-center text-[#8f7c45]">
+                            <p className="text-xl md:text-2xl font-extrabold text-center text-[#fac21e]">
                                 Every option adds
-                                <span className="underline decoration-[#8f7c45]"> luxury, customization & quality</span>.
+                                <span className="underline decoration-[#fac21e] "> luxury, customization & quality</span>.
                             </p>
                         </div>
 
