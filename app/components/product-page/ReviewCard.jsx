@@ -50,7 +50,7 @@ function ReviewCard(props) {
                 <p
                     className="
                         mt-2 text-xl 
-                        bg-linear-to-r from-[#715723] to-[#8f7c45]
+                        bg-[#fac21e]  
                         bg-clip-text text-transparent
                         font-semibold tracking-wide
                     "
