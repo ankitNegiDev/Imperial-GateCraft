@@ -1,3 +1,8 @@
+/**
+ * for image slider what we can do is - first store all the images or text in array then create a function that will render these slide using map -- then in main blogs component just use swiper to show sliding effect-
+ */
+
+
 "use client";
 import React from "react";
 import Image from "next/image";
