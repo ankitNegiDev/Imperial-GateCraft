@@ -62,6 +62,12 @@ export default function Navbar() {
         setActiveMenu("");
     }
 
+    // redirect user to blog page when user click blogs
+    function goToBlogsPage(){
+        router.push("/blogs");
+        setActiveMenu("");
+    }
+
     return (
 
         // close mega on leaving
@@ -138,6 +144,7 @@ export default function Navbar() {
 
                         <div
                             onMouseEnter={function () { setActiveMenu("blogs"); }}
+                            onClick={function callback(){goToBlogsPage();}}
                             className="relative group cursor-pointer hover:text-amber-300"
                         >
                             Blogs
