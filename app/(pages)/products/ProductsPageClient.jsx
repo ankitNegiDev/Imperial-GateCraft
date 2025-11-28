@@ -1,21 +1,21 @@
 "use client"
 // import CallForm from "./components/CallForm";
-import CallForm from "../components/product-page/CallForm"
+import CallForm from "../../components/product-page/CallForm"
 // import ImageSwiper from "./components/ImageSwiper";
-import ImageSwiper from "../components/product-page/ImageSwiper"
+import ImageSwiper from "../../components/product-page/ImageSwiper"
 // import MoreDoorIdeas from "./components/MoreDoorIdeas";
-import MoreDoorIdeas from "../components/product-page/MoreDoorIdeas"
+import MoreDoorIdeas from "../../components/product-page/MoreDoorIdeas"
 // import OtherProduct from "./components/OtherProduct";
-import OtherProduct from "../components/product-page/OtherProduct"
+import OtherProduct from "../../components/product-page/OtherProduct"
 // import Sidebar from "./components/Sidebar";
-import Sidebar from "../components/product-page/Sidebar"
+import Sidebar from "../../components/product-page/Sidebar"
 // import Tab from './components/Tab';
-import Tab from "../components/product-page/Tab"
+import Tab from "../../components/product-page/Tab"
 // import YouTubeEmbed from './components/YouTubeEmbed';
-import YouTubeEmbed from "../components/product-page/YouTubeEmbed"
+import YouTubeEmbed from "../../components/product-page/YouTubeEmbed"
 // import Footer from "./components/Footer";
 // import Footer from "../components/product-page/Footer"
-import Footer from "../components/home-page/Footer"
+import Footer from "../../components/home-page/Footer"
 
 import { useSearchParams } from "next/navigation";
 
@@ -97,7 +97,7 @@ function ProductsPageClient() {
             </div>
             <div>
                 {/* <Footer /> */}
-                
+
                 {/* <Footer/> */}
             </div>
         </>
