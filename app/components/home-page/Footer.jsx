@@ -35,10 +35,10 @@ function Footer() {
                 }}
             ></div>
 
-            <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-12 text-white">
+            <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-4 gap-12 text-white">
                 {/* LOGO + ABOUT */}
                 <div className="flex flex-col items-start w-full">
-                    <div className="w-full md:h-[280px] rounded-xl overflow-hidden relative transition-all duration-1000">
+                    <div className="w-[15.4vw] md:h-[15.4vh] rounded-xl overflow-hidden relative transition-all duration-1000">
                         {showImage ? (
                             <Image
                                 src="/Dwars-Logo-new.png" 
@@ -47,12 +47,12 @@ function Footer() {
                                 className="object-contain bg-black"
                             />
                         ) : (
-                            <video ref={videoRef} src="/temp-video.mp4" autoPlay muted playsInline onEnded={handleVideoDelay} className=" block w-full h-[39.9vh] object-cover rounded-xl overflow-hidden scale-[1.9] origin-center transition-all duration-500 " />
+                            <video ref={videoRef} src="/temp-video.mp4" autoPlay muted playsInline onEnded={handleVideoDelay} className=" block w-full h-[15.4vh] object-cover rounded-xl overflow-hidden scale-[1.9] origin-center transition-all duration-500 " />
                             
                         )}
                     </div>
 
-                    <p className="text-gray-400 leading-relaxed mt-4 text-base">
+                    <p className="text-gray-400 leading-relaxed mt-2 text-sm">
                         We deliver premium craftsmanship, innovative solutions, and luxury
                         digital experiences for global brands.
                     </p>
